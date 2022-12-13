@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "get schwifty";
+  src: url("../../assets/fonts/get_schwifty.ttf") format("truetype");
+
+  font-family: "GuardiansRegular-6M0q";
+  src: url("../../assets/fonts/GuardiansRegular-6M0q.ttf") format("truetype");
+}
+
+.title {
+  font-family: "GuardiansRegular-6M0q", "get schwifty", "Times New Roman", Times,
+    serif;
+  color: wheat;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}

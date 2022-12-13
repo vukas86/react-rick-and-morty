@@ -1,0 +1,6 @@
+body {
+  background: url("./assets/images/bg_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3000px;
+}

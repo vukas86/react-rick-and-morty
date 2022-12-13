@@ -1,0 +1,44 @@
+.module {
+  display: flex;
+}
+.module h1 {
+  color: black;
+}
+.module h2 {
+  color: black;
+}
+
+.module h2 span {
+  color: blue;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.info p {
+  margin-top: 15px;
+}
+
+dialog article {
+  overflow: hidden;
+  width: 1200px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+dialog article a {
+  float: right;
+}
+dialog article a:hover {
+  text-decoration: none;
+}
+
+.charImg {
+  max-width: 180px;
+  height: 180px;
+}

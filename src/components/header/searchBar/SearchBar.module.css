@@ -1,0 +1,12 @@
+.search {
+  font-size: 18px;
+  margin-top: 50px;
+  padding: 12px;
+  border-radius: 8px;
+  padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat left;
+  background-size: 20px;
+  background-color: #00aec7;
+  color: white;
+}
