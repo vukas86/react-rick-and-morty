@@ -20,6 +20,7 @@
   border-radius: 5px;
   background-color: #053e47;
   cursor: pointer;
+  overflow: visible;
 }
 .user:hover {
   text-decoration: none;
@@ -55,8 +56,14 @@ h1 {
 
 h3 {
   font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 h3 span {
   color: rgb(39, 233, 39);
+}
+
+.inhName {
+  font-size: 20px;
 }

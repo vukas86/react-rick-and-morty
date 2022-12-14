@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
-import Modals from "../Modals";
+import Modals from "../modals/Modals";
 import Card from "../card/Card";
 
 import styles from "./CharList.module.css";
 
 function CharList() {
   let [charInfo, setCharInfo] = useState(null);
+
   return (
     <>
       <h2 className={styles.title}>Characters</h2>;
