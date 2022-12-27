@@ -19,15 +19,21 @@ function SearchBar() {
   }
   console.log(char);
 
+  const clearSearchHandler = () => {
+    console.log("hi");
+  };
+
   return (
-    <input
-      type="search"
-      className={styles.search}
-      id="search"
-      name="search"
-      placeholder="Search"
-      onChange={handleSearch}
-    ></input>
+    <>
+      <input
+        type="search"
+        className={styles.search}
+        id="search"
+        name="search"
+        placeholder="Search"
+        onChange={handleSearch}
+      />
+    </>
   );
 }
 

@@ -4,6 +4,7 @@ export const CharacterContext = createContext();
 
 export const CharacterProvider = (props) => {
   const [char, setChar] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchCar() {
     try {
@@ -18,11 +19,13 @@ export const CharacterProvider = (props) => {
   }
 
   useEffect(() => {
+    setIsLoading(false);
     fetchCar();
+    setIsLoading(true);
   }, []);
 
   return (
-    <CharacterContext.Provider value={[char, setChar]}>
+    <CharacterContext.Provider value={[char, setChar, isLoading, setIsLoading]}>
       {props.children}
     </CharacterContext.Provider>
   );
